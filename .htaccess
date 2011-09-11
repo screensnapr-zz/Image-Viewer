@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^snap/([^/]*)$ /snaps/view.php?image=$1 [L]
